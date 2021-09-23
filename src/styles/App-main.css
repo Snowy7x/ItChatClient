@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+.sidebar-main {
+    position: fixed;
+    width: 345px;
+    height: 100%;
+    overflow: scroll;
+    left: 100px;
+    background-color: #121219;
+    padding-bottom: 100px;
+}
+
+.sidebar-main::-webkit-scrollbar {
+    display: none;
+}
+
+.user-main {
+    display: flex;
+    width: 302px;
+    height: 58px;
+    position: fixed;
+    bottom: 20px;
+    left: 120px;
+}
+
+.username {
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    left: 65px;
+}
+
+.avatar {
+    cursor: pointer;
+    width: 56px;
+    border-radius: 100%;
+}
+
+.custom-status {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    line-height: 21px;
+
+    position: absolute;
+    bottom: 0;
+    left: 65px;
+}
+
+.settings {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+}
+
+.user-container {
+    display: flex;
+    width: 345px;
+    height: 100px;
+
+    position: fixed;
+    bottom: 0;
+    left: 100px;
+    background-color: #111118;
+}
+
+.server-banner {
+    width: 345px;
+    height: 175px;
+}
+
+.server-title {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.server-menu {
+    cursor: pointer;
+    position: absolute;
+    top: 32px;
+    right: 18px;
+}
+
+.flex-category {
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    width: 100%;
+    padding: 8px;
+}
+
+.category-title {
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.33);
+    position: relative;
+    left: 47px;
+}
+
+.category-add-button {
+    cursor: pointer;
+    position: absolute;
+    right: 24px;
+}
+
+.category-arrow {
+    cursor: pointer;
+    position: absolute;
+    left: 19px;
+}
+
+.channel-flex {
+    cursor: pointer;
+    display: flex;
+    padding: 7px;
+    border-radius: 10px;
+    width: 303px;
+    position: relative;
+    left: 26px;
+
+}
+
+.channel-title {
+    position: relative;
+    left: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.29);
+}
+
+.active-channel {
+    background: rgba(255, 255, 255, 0.04);
+}
