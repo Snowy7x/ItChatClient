@@ -136,7 +136,13 @@ export default function ChannelComponent({ channels }: { channels: any[] }) {
                 )}
               </div>
               <div className='channel-title'>{channel.name}</div>
-              <div className='channel-noti'></div>
+              {channel.notfi > 0 ? (
+                <div className='channel-notfi'>
+                  {channel.notfi > 99 ? '+99' : channel.notfi}
+                </div>
+              ) : (
+                ''
+              )}
             </div>
           ))}
         </div>

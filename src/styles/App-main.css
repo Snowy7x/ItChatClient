@@ -65,6 +65,7 @@
     bottom: 0;
     left: 100px;
     background-color: #111118;
+    z-index: 100;
 }
 
 .server-banner {
@@ -144,4 +145,27 @@
 
 .active-channel {
     background: rgba(255, 255, 255, 0.04);
+}
+
+.channel-notfi {
+    color: white;
+    background-color: #5C53FB;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    font-size: 14px;
+    position: absolute;
+    right: 24px;
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

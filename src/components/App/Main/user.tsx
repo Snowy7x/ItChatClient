@@ -6,7 +6,7 @@ export default function UserMainComponent() {
       <div className='user-main'>
         <img
           alt=''
-          src='https://cdn.discordapp.com/avatars/673438607905914892/fa31148a4cb616a3a348a9b8df03add3.png?size=1024'
+          src='https://media.discordapp.net/attachments/890651045246681139/890667549337997374/unknown.png?width=101&height=101'
           className='avatar'
         />
         <div className='green-status' />

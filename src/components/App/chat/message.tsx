@@ -13,8 +13,8 @@ export default function MessageComponent({
     <div>
       <div className='message'>
         <img className='message-img' src={url} alt='' />
-        <div className='message-username'>{title}</div>
         <div className='message-content'>{content}</div>
+        <div className='message-username'>{title}</div>
       </div>
     </div>
   );

@@ -1,57 +1,72 @@
 export const channels = [
   {
-    name: 'TextChannels',
+    name: 'GETTING STARTED',
     channels: [
       {
-        name: 'General',
-        type: 'text',
-        active: true,
-      },
-      {
-        name: 'Memes',
+        name: 'about',
         type: 'text',
         active: false,
+        notfi: 0,
       },
       {
-        name: 'gang',
+        name: 'rules',
         type: 'text',
         active: false,
+        notfi: 1,
       },
       {
-        name: 'Memes',
+        name: 'support us',
         type: 'text',
         active: false,
+        notfi: 15,
       },
       {
-        name: 'Memes',
+        name: 'why',
         type: 'text',
         active: false,
-      },
-      {
-        name: 'Memes',
-        type: 'text',
-        active: false,
-      },
-      {
-        name: 'Memes',
-        type: 'text',
-        active: false,
+        notfi: 300,
       },
     ],
   },
   {
-    name: 'VoiceChannels',
+    name: 'ITCHAT',
     channels: [
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
-      { name: 'General', type: 'voice', active: false },
+      {
+        name: 'general',
+        type: 'text',
+        active: true,
+        notfi: 0,
+      },
+      {
+        name: 'announcement',
+        type: 'text',
+        active: false,
+        notfi: 20,
+      },
+      {
+        name: 'updates',
+        type: 'text',
+        active: false,
+        notfi: 0,
+      },
+      {
+        name: 'donations',
+        type: 'text',
+        active: false,
+        notfi: 0,
+      },
+      {
+        name: 'pools',
+        type: 'text',
+        active: false,
+        notfi: 50,
+      },
+      {
+        name: 'AFK',
+        type: 'voice',
+        active: false,
+        notfi: 0,
+      },
     ],
   },
 ];

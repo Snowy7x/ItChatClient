@@ -119,6 +119,8 @@
     display: flex;
     position: relative;
     left: 34px;
+    max-width: 30px;
+
 }
 
 .message-img {
@@ -128,15 +130,15 @@
 .message-username {
     color: rgb(179, 179, 179);
     position: absolute;
-    width: 500px;
+    width: 300px;
     left: 50px;
 }
 
 .message-content {
     color: white;
     position: relative;
-    width: 1000px;
     left: 13px;
     top: 25px;
+    min-width: 30% !important;
     font-size: 15px;
 }

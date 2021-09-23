@@ -23,6 +23,42 @@ export function ApplicationServers() {
         <ServerComponent
           url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
           active={false}
+        />{' '}
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
+          active={false}
+        />
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357327524417548/unknown.png'
+          active={false}
+        />
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
+          active={false}
+        />{' '}
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
+          active={false}
+        />
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357327524417548/unknown.png'
+          active={false}
+        />
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
+          active={false}
+        />{' '}
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
+          active={false}
+        />
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357327524417548/unknown.png'
+          active={false}
+        />
+        <ServerComponent
+          url='https://cdn.discordapp.com/attachments/761543226967982081/890357386718642206/unknown.png'
+          active={false}
         />
         <AddComponents active={false} />
       </div>
