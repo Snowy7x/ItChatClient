@@ -1,0 +1,33 @@
+.login-form-container {}
+
+.login-input {
+    position: relative;
+    width: 650px;
+    height: 59px;
+    left: 987px;
+    top: 430px;
+    background: rgba(36, 36, 49, 0.4);
+    border-radius: 10px;
+    border: none;
+}
+
+.login-span-input {
+    position: relative;
+    width: 650px;
+    height: 59px;
+    left: 400px;
+    top: 435px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.18);
+}
+
+.eye-of-password {
+    position: absolute;
+    width: 34px;
+    left: 1580px;
+    top: 523px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/App-members.css';
+import '../../../styles/App/App-members.css';
 import SectionComponent from './section';
 export function ApplicationMembers() {
   return (

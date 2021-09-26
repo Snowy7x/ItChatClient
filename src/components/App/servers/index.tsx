@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/App-servers.css';
+import '../../../styles/App/App-servers.css';
 import ServerComponent from './ServerComponent';
 import HomeComponent from './HomeComponent';
 import AddComponents from './AddComponents';

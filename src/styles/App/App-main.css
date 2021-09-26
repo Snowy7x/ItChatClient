@@ -169,3 +169,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.status {
+    position: absolute;
+    left: 40px;
+    bottom: -4px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/App-main.css';
+import '../../../styles/App/App-main.css';
 import UserMainComponent from './user';
 import TitleComponent from './title';
 import ChannelsCompoent from './channels';
