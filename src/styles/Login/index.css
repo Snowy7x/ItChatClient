@@ -1,18 +1,122 @@
-.login-title {
-    position: absolute;
-    width: 352px;
-    height: 111px;
-    left: 1208px;
-    top: 248px;
+* {
+    zoom: 0.99;
+}
 
+.application-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 606px;
+    height: 650px;
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 70px;
     line-height: 82px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    top: -103px;
+}
+
+.login-forms {
+    display: flex;
+    justify-content: center;
+}
+
+.login-input-container {
+    width: 680px;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-input {
+    width: 650px;
+    height: 59px;
+    padding: 30px;
+    background: rgba(36, 36, 49, 0.4);
+    border: none;
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
     display: flex;
     align-items: center;
-    text-align: center;
 
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.18);
+
+}
+
+.login-end-span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(36, 36, 49, 0.4);
+    width: 70px;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login-start-span {
+    width: 70px;
+    background: rgba(36, 36, 49, 0.4);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login-forgot-password {
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-left: 22px;
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.login-buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px;
+    cursor: pointer;
+    background: rgba(92, 83, 251, 0.4);
+    border-radius: 10px;
+    width: 554px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.4);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
 }

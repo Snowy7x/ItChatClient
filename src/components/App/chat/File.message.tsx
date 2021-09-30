@@ -1,6 +1,12 @@
 import React from 'react';
 
-export default function FileMessageComponent() {
+export default function FileMessageComponent({
+  title,
+  size,
+}: {
+  title: string;
+  size: string;
+}) {
   return (
     <div>
       <div className='message'>
@@ -63,8 +69,8 @@ export default function FileMessageComponent() {
               </svg>
             </div>
             <div>
-              <div className='file-message-title'>amoung_us.exe</div>
-              <div className='file-message-size'>197MB</div>
+              <div className='file-message-title'>{title}</div>
+              <div className='file-message-size'>{size}</div>
             </div>
             <svg
               className='download-file-button'

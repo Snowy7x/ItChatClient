@@ -18,3 +18,9 @@ body {
 .application {
     height: 100%;
 }
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}

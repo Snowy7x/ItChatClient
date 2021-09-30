@@ -91,12 +91,11 @@
 
 .messages-container {
     overflow: scroll;
-    height: 100%;
     width: 100%;
     overflow-x: hidden;
     display: flex;
     height: calc(100% - 120px - 95px);
-    position: absolute;
+    position: relative;
     top: 95px;
 }
 
@@ -113,7 +112,9 @@
     border-top: none;
     background: rgba(0, 0, 0, 0.21);
     border-radius: 10px;
+
 }
+
 
 .message {
     padding: 20px;
@@ -156,6 +157,7 @@
 }
 
 .file-message-container {
+
     display: flex;
     width: 456px;
     height: 57px;
@@ -197,8 +199,21 @@
 .download-file-button {
     cursor: pointer;
     position: absolute;
-    right: 22px;
+    left: 410px;
     display: flex;
     align-items: center;
     margin-top: calc(33px / 2);
+}
+
+.begging-title-container {
+    background-color: red;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.messages {
+    width: 100%;
+    max-height: 100%;
 }
