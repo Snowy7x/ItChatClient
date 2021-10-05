@@ -1,0 +1,56 @@
+@media screen and (max-width: 1400px) {
+    .util-icon svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-box {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .chat-box {
+        font-size: 20px;
+    }
+
+
+    .util-icon svg {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .sidebar-servers {
+        display: none;
+    }
+
+    .sidebar-main {
+        display: none;
+    }
+
+    .application-chat {
+        left: 0;
+        width: calc(100% - 445px + 110px + 245px);
+    }
+
+    .member-name {
+        display: none;
+    }
+
+    .sidebar-members {
+        width: 100px;
+    }
+
+    .util-icon svg {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .chat-box {
+        font-size: 30px;
+    }
+}

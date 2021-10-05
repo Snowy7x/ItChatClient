@@ -5,7 +5,7 @@ import {
   ApplicationMembers,
   ApplicationChat,
 } from '../components';
-
+import '../styles/media/App.css';
 export function ItchatApplication() {
   return (
     <div className='application'>

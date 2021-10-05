@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Login/index.css';
+import '../styles/media/Login.css';
 export function ItchatLogin() {
   const [eye, setEye] = React.useState(false);
   return (

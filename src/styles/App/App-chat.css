@@ -3,8 +3,8 @@
     overflow: scroll;
     left: 445px;
     height: 100%;
-    min-width: calc(100% - 445px - 345px);
-    width: calc(100% - 445px - 345px);
+    min-width: calc(100% - 435px - 345px);
+    width: calc(100% - 435px - 345px);
     overflow-x: hidden;
 }
 
@@ -48,6 +48,7 @@
 .utilities-icon {
     position: absolute;
     display: flex;
+    align-items: center;
     right: 35px;
     top: 10px;
 }
