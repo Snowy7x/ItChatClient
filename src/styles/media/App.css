@@ -33,7 +33,7 @@
 
     .application-chat {
         left: 0;
-        width: calc(100% - 445px + 110px + 245px);
+        width: calc(100% - 445px + 100px + 245px);
     }
 
     .member-name {
@@ -52,5 +52,13 @@
 
     .chat-box {
         font-size: 30px;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .sidebar-members {
+        top: 0;
     }
 }
